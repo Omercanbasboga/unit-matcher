@@ -1,0 +1,6 @@
+# The engine itself is stdlib only. These are for the optional outputs.
+psycopg[binary]>=3.1   # PostgreSQL
+pymongo>=4.6           # MongoDB
+
+# tests
+pytest>=8
