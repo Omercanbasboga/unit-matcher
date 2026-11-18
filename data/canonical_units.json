@@ -1,0 +1,858 @@
+{
+  "2930f169-4cb6-52cd-920e-faff10b37aaf": {
+    "uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ad": "REKTÖRLÜK",
+    "tur": "İDARİ",
+    "kod": "100",
+    "ust_uuid": null,
+    "ust_kod": null,
+    "node_id": [
+      "4808"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "91bc7b5e-41f0-5080-912c-7ad9bdeab29b": {
+    "uuid": "91bc7b5e-41f0-5080-912c-7ad9bdeab29b",
+    "ad": "GENEL SEKRETERLİK",
+    "tur": "İDARİ",
+    "kod": "105",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [],
+    "kaynak": "ornek_veri"
+  },
+  "2da3ff58-1d8e-5320-96ed-ec7792ce45f7": {
+    "uuid": "2da3ff58-1d8e-5320-96ed-ec7792ce45f7",
+    "ad": "GENEL SEKRETERLİK YARDIMCISI",
+    "tur": "İDARİ",
+    "kod": "110",
+    "ust_uuid": "91bc7b5e-41f0-5080-912c-7ad9bdeab29b",
+    "ust_kod": "105",
+    "node_id": [],
+    "kaynak": "ornek_veri"
+  },
+  "1f0bc9cd-b4e9-5239-80bc-13cda7ec4218": {
+    "uuid": "1f0bc9cd-b4e9-5239-80bc-13cda7ec4218",
+    "ad": "HUKUK MÜŞAVİRLİĞİ",
+    "tur": "İDARİ",
+    "kod": "115",
+    "ust_uuid": "91bc7b5e-41f0-5080-912c-7ad9bdeab29b",
+    "ust_kod": "105",
+    "node_id": [],
+    "kaynak": "ornek_veri"
+  },
+  "34206dd7-2c3e-58b3-b06c-c938e4f48180": {
+    "uuid": "34206dd7-2c3e-58b3-b06c-c938e4f48180",
+    "ad": "PERSONEL DAİRE BAŞKANLIĞI",
+    "tur": "İDARİ",
+    "kod": "750",
+    "ust_uuid": "2da3ff58-1d8e-5320-96ed-ec7792ce45f7",
+    "ust_kod": "110",
+    "node_id": [
+      "5123"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "1166cd7f-daff-55a0-999d-bf3d921daf68": {
+    "uuid": "1166cd7f-daff-55a0-999d-bf3d921daf68",
+    "ad": "ÖZLÜK İŞLERİ ŞUBE MÜDÜRLÜĞÜ",
+    "tur": "İDARİ",
+    "kod": "751",
+    "ust_uuid": "34206dd7-2c3e-58b3-b06c-c938e4f48180",
+    "ust_kod": "750",
+    "node_id": [
+      "6052"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "8c43c6cc-a6d0-5f6d-a513-e8991f1d3791": {
+    "uuid": "8c43c6cc-a6d0-5f6d-a513-e8991f1d3791",
+    "ad": "ATAMA ŞUBE MÜDÜRLÜĞÜ",
+    "tur": "İDARİ",
+    "kod": "752",
+    "ust_uuid": "34206dd7-2c3e-58b3-b06c-c938e4f48180",
+    "ust_kod": "750",
+    "node_id": [
+      "7748",
+      "3353"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "d6b419b0-6ac1-5b80-90cf-04f1b6a074bf": {
+    "uuid": "d6b419b0-6ac1-5b80-90cf-04f1b6a074bf",
+    "ad": "BİLGİ İŞLEM DAİRE BAŞKANLIĞI",
+    "tur": "İDARİ",
+    "kod": "760",
+    "ust_uuid": "2da3ff58-1d8e-5320-96ed-ec7792ce45f7",
+    "ust_kod": "110",
+    "node_id": [
+      "7547"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "d3efc50b-ef46-5510-bc96-af7939b38d74": {
+    "uuid": "d3efc50b-ef46-5510-bc96-af7939b38d74",
+    "ad": "YAZILIM GELİŞTİRME ŞUBE MÜDÜRLÜĞÜ",
+    "tur": "İDARİ",
+    "kod": "761",
+    "ust_uuid": "d6b419b0-6ac1-5b80-90cf-04f1b6a074bf",
+    "ust_kod": "760",
+    "node_id": [],
+    "kaynak": "ornek_veri"
+  },
+  "24ca3fa9-9316-58bd-85b6-f07a5918b2a2": {
+    "uuid": "24ca3fa9-9316-58bd-85b6-f07a5918b2a2",
+    "ad": "SİSTEM VE AĞ ŞUBE MÜDÜRLÜĞÜ",
+    "tur": "İDARİ",
+    "kod": "762",
+    "ust_uuid": "d6b419b0-6ac1-5b80-90cf-04f1b6a074bf",
+    "ust_kod": "760",
+    "node_id": [
+      "6453"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "22f21993-b0e4-533f-88c2-3edfa6bead2e": {
+    "uuid": "22f21993-b0e4-533f-88c2-3edfa6bead2e",
+    "ad": "DONANIM ŞEFLİĞİ",
+    "tur": "İDARİ",
+    "kod": "763",
+    "ust_uuid": "24ca3fa9-9316-58bd-85b6-f07a5918b2a2",
+    "ust_kod": "762",
+    "node_id": [],
+    "kaynak": "ornek_veri"
+  },
+  "5e7c3335-bd01-5866-9e6e-c20420af607e": {
+    "uuid": "5e7c3335-bd01-5866-9e6e-c20420af607e",
+    "ad": "KÜTÜPHANE VE DOKÜMANTASYON DAİRE BAŞKANLIĞI",
+    "tur": "İDARİ",
+    "kod": "770",
+    "ust_uuid": "2da3ff58-1d8e-5320-96ed-ec7792ce45f7",
+    "ust_kod": "110",
+    "node_id": [
+      "2051"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "f2c49657-1c07-5b1a-bd3b-2dc0c7b316ef": {
+    "uuid": "f2c49657-1c07-5b1a-bd3b-2dc0c7b316ef",
+    "ad": "ÖĞRENCİ İŞLERİ DAİRE BAŞKANLIĞI",
+    "tur": "İDARİ",
+    "kod": "780",
+    "ust_uuid": "2da3ff58-1d8e-5320-96ed-ec7792ce45f7",
+    "ust_kod": "110",
+    "node_id": [
+      "4256"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "e676c12f-16d0-58f4-84ee-03c9b52ebfc0": {
+    "uuid": "e676c12f-16d0-58f4-84ee-03c9b52ebfc0",
+    "ad": "STRATEJİ GELİŞTİRME DAİRE BAŞKANLIĞI",
+    "tur": "İDARİ",
+    "kod": "790",
+    "ust_uuid": "2da3ff58-1d8e-5320-96ed-ec7792ce45f7",
+    "ust_kod": "110",
+    "node_id": [
+      "8090"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "444446b7-fad3-5c6d-95db-84db10df8d5e": {
+    "uuid": "444446b7-fad3-5c6d-95db-84db10df8d5e",
+    "ad": "SAĞLIK KÜLTÜR VE SPOR DAİRE BAŞKANLIĞI",
+    "tur": "İDARİ",
+    "kod": "800",
+    "ust_uuid": "2da3ff58-1d8e-5320-96ed-ec7792ce45f7",
+    "ust_kod": "110",
+    "node_id": [],
+    "kaynak": "ornek_veri"
+  },
+  "9af665b6-5608-5721-bcbe-41c706606756": {
+    "uuid": "9af665b6-5608-5721-bcbe-41c706606756",
+    "ad": "SPOR ŞUBE MÜDÜRLÜĞÜ",
+    "tur": "İDARİ",
+    "kod": "805",
+    "ust_uuid": "444446b7-fad3-5c6d-95db-84db10df8d5e",
+    "ust_kod": "800",
+    "node_id": [
+      "9739",
+      "9540",
+      "6245"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "664a6115-f95f-5a93-bf7c-ea4c459fd0dc": {
+    "uuid": "664a6115-f95f-5a93-bf7c-ea4c459fd0dc",
+    "ad": "SAĞLIK KÜLTÜR VE SPOR KOORDİNASYON ŞUBE MÜDÜRLÜĞÜ",
+    "tur": "İDARİ",
+    "kod": "806",
+    "ust_uuid": "444446b7-fad3-5c6d-95db-84db10df8d5e",
+    "ust_kod": "800",
+    "node_id": [
+      "5196"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "e9b752ba-5ead-5f52-aebf-675ab8aa5637": {
+    "uuid": "e9b752ba-5ead-5f52-aebf-675ab8aa5637",
+    "ad": "YURTLAR VE KONUTLAR ŞUBE MÜDÜRLÜĞÜ",
+    "tur": "İDARİ",
+    "kod": "808",
+    "ust_uuid": "444446b7-fad3-5c6d-95db-84db10df8d5e",
+    "ust_kod": "800",
+    "node_id": [
+      "3757"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "5bf423a9-36e6-5f8d-b177-0905457d321b": {
+    "uuid": "5bf423a9-36e6-5f8d-b177-0905457d321b",
+    "ad": "KUZEY KAMPÜS YURDU",
+    "tur": "İDARİ",
+    "kod": "839",
+    "ust_uuid": "e9b752ba-5ead-5f52-aebf-675ab8aa5637",
+    "ust_kod": "808",
+    "node_id": [
+      "3899",
+      "2877",
+      "6047"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "a0369cf0-5cbe-51bd-99a8-a880a160a56a": {
+    "uuid": "a0369cf0-5cbe-51bd-99a8-a880a160a56a",
+    "ad": "GÜNEY KAMPÜS YURDU",
+    "tur": "İDARİ",
+    "kod": "840",
+    "ust_uuid": "e9b752ba-5ead-5f52-aebf-675ab8aa5637",
+    "ust_kod": "808",
+    "node_id": [
+      "3770",
+      "2419"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "03c23d8d-6052-53cb-87d6-24dc0755763f": {
+    "uuid": "03c23d8d-6052-53cb-87d6-24dc0755763f",
+    "ad": "İDARİ VE MALİ İŞLER DAİRE BAŞKANLIĞI",
+    "tur": "İDARİ",
+    "kod": "960",
+    "ust_uuid": "2da3ff58-1d8e-5320-96ed-ec7792ce45f7",
+    "ust_kod": "110",
+    "node_id": [
+      "3478",
+      "8717"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "301ec23c-3f9c-5c96-988e-6833e6ffc9d6": {
+    "uuid": "301ec23c-3f9c-5c96-988e-6833e6ffc9d6",
+    "ad": "TAHAKKUK ŞUBE MÜDÜRLÜĞÜ",
+    "tur": "İDARİ",
+    "kod": "967",
+    "ust_uuid": "03c23d8d-6052-53cb-87d6-24dc0755763f",
+    "ust_kod": "960",
+    "node_id": [
+      "4092",
+      "9591",
+      "7091"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "b08c4b5e-af29-55c6-a18e-0ec24e627cc3": {
+    "uuid": "b08c4b5e-af29-55c6-a18e-0ec24e627cc3",
+    "ad": "SATIN ALMA ŞUBE MÜDÜRLÜĞÜ",
+    "tur": "İDARİ",
+    "kod": "968",
+    "ust_uuid": "03c23d8d-6052-53cb-87d6-24dc0755763f",
+    "ust_kod": "960",
+    "node_id": [
+      "8869"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "63355479-433f-5f15-9726-ae67f107894c": {
+    "uuid": "63355479-433f-5f15-9726-ae67f107894c",
+    "ad": "ÇEVRE DÜZENLEME ŞUBE MÜDÜRLÜĞÜ",
+    "tur": "İDARİ",
+    "kod": "652",
+    "ust_uuid": "03c23d8d-6052-53cb-87d6-24dc0755763f",
+    "ust_kod": "960",
+    "node_id": [
+      "9064",
+      "5078"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "3773d3f5-2e11-5d6f-a636-ae0ac5b9bbae": {
+    "uuid": "3773d3f5-2e11-5d6f-a636-ae0ac5b9bbae",
+    "ad": "BİLİMSEL ARAŞTIRMA PROJELERİ KOORDİNATÖRLÜĞÜ",
+    "tur": "İDARİ",
+    "kod": "180",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "2470"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "afa4f741-6ffe-510b-853c-533e14df829e": {
+    "uuid": "afa4f741-6ffe-510b-853c-533e14df829e",
+    "ad": "DÖNER SERMAYE İŞLETME MÜDÜRLÜĞÜ",
+    "tur": "İDARİ",
+    "kod": "189",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [],
+    "kaynak": "ornek_veri"
+  },
+  "22439859-9aa9-5472-8fbb-f7e886d20611": {
+    "uuid": "22439859-9aa9-5472-8fbb-f7e886d20611",
+    "ad": "İÇ DENETİM BİRİMİ BAŞKANLIĞI",
+    "tur": "İDARİ",
+    "kod": "191",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "4803"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "022108e3-bf14-5d7f-ab46-08cf4a276bf2": {
+    "uuid": "022108e3-bf14-5d7f-ab46-08cf4a276bf2",
+    "ad": "SÜREKLİ EĞİTİM UYGULAMA VE ARAŞTIRMA MERKEZİ",
+    "tur": "İDARİ",
+    "kod": "195",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "9223",
+      "7566",
+      "6890"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "e92dbb98-e503-5a5e-a30f-3b1613638c78": {
+    "uuid": "e92dbb98-e503-5a5e-a30f-3b1613638c78",
+    "ad": "TURİZM İŞLETMECİLİĞİ UYGULAMA VE ARAŞTIRMA MERKEZİ",
+    "tur": "İDARİ",
+    "kod": "101",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "7276",
+      "7440"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "04e540d3-7cfd-5f73-b6d5-f8cf6b1417cb": {
+    "uuid": "04e540d3-7cfd-5f73-b6d5-f8cf6b1417cb",
+    "ad": "YABANCI DİLLER YÜKSEKOKULU",
+    "tur": "AKADEMİK",
+    "kod": "156",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "652",
+      "8786"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "928a7a96-036b-5fa9-a7d6-09006b59da3c": {
+    "uuid": "928a7a96-036b-5fa9-a7d6-09006b59da3c",
+    "ad": "YABANCI DİLLER",
+    "tur": "AKADEMİK",
+    "kod": "241",
+    "ust_uuid": "04e540d3-7cfd-5f73-b6d5-f8cf6b1417cb",
+    "ust_kod": "156",
+    "node_id": [
+      "7567"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "8d77f1be-1bd0-54c1-a428-91e788a204be": {
+    "uuid": "8d77f1be-1bd0-54c1-a428-91e788a204be",
+    "ad": "MÜHENDİSLİK FAKÜLTESİ",
+    "tur": "AKADEMİK",
+    "kod": "4900",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "8537"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "27610687-3049-5d1d-81e1-b94b5fbdfa0d": {
+    "uuid": "27610687-3049-5d1d-81e1-b94b5fbdfa0d",
+    "ad": "BİLGİSAYAR MÜHENDİSLİĞİ",
+    "tur": "AKADEMİK",
+    "kod": "4901",
+    "ust_uuid": "8d77f1be-1bd0-54c1-a428-91e788a204be",
+    "ust_kod": "4900",
+    "node_id": [],
+    "kaynak": "ornek_veri"
+  },
+  "203821ce-9f4c-5817-909b-20541a98c333": {
+    "uuid": "203821ce-9f4c-5817-909b-20541a98c333",
+    "ad": "BİLGİSAYAR MÜHENDİSLİĞİ (M.S., PH.D.)",
+    "tur": "AKADEMİK",
+    "kod": "1197",
+    "ust_uuid": "27610687-3049-5d1d-81e1-b94b5fbdfa0d",
+    "ust_kod": "4901",
+    "node_id": [
+      "8605"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "6c746749-4965-557a-b71e-9d9a426cbe6c": {
+    "uuid": "6c746749-4965-557a-b71e-9d9a426cbe6c",
+    "ad": "ELEKTRİK-ELEKTRONİK MÜHENDİSLİĞİ BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4903",
+    "ust_uuid": "8d77f1be-1bd0-54c1-a428-91e788a204be",
+    "ust_kod": "4900",
+    "node_id": [
+      "4260",
+      "8856",
+      "9789"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "f3d14f32-dbd7-5063-8d9f-4f4de994809b": {
+    "uuid": "f3d14f32-dbd7-5063-8d9f-4f4de994809b",
+    "ad": "İNŞAAT MÜHENDİSLİĞİ BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4904",
+    "ust_uuid": "8d77f1be-1bd0-54c1-a428-91e788a204be",
+    "ust_kod": "4900",
+    "node_id": [
+      "5863",
+      "9198"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "6579f5f9-c213-57b9-a327-33857fc56914": {
+    "uuid": "6579f5f9-c213-57b9-a327-33857fc56914",
+    "ad": "ENDÜSTRİ MÜHENDİSLİĞİ BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4905",
+    "ust_uuid": "8d77f1be-1bd0-54c1-a428-91e788a204be",
+    "ust_kod": "4900",
+    "node_id": [
+      "6592"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "10129a14-cfbe-591c-a8ef-24efb9c0a149": {
+    "uuid": "10129a14-cfbe-591c-a8ef-24efb9c0a149",
+    "ad": "MAKİNA MÜHENDİSLİĞİ",
+    "tur": "AKADEMİK",
+    "kod": "4906",
+    "ust_uuid": "8d77f1be-1bd0-54c1-a428-91e788a204be",
+    "ust_kod": "4900",
+    "node_id": [
+      "2538"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "a756c22c-f214-5144-8f5c-02bd0983b841": {
+    "uuid": "a756c22c-f214-5144-8f5c-02bd0983b841",
+    "ad": "KİMYA MÜHENDİSLİĞİ BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4907",
+    "ust_uuid": "8d77f1be-1bd0-54c1-a428-91e788a204be",
+    "ust_kod": "4900",
+    "node_id": [
+      "3979",
+      "5096",
+      "5820"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "894c485c-b643-5fbb-8319-64597bc5a0c6": {
+    "uuid": "894c485c-b643-5fbb-8319-64597bc5a0c6",
+    "ad": "EĞİTİM FAKÜLTESİ",
+    "tur": "AKADEMİK",
+    "kod": "3200",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "6381",
+      "2235"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "719b8f40-d2f5-5942-940e-caf98a50f6e3": {
+    "uuid": "719b8f40-d2f5-5942-940e-caf98a50f6e3",
+    "ad": "YABANCI DİLLER EĞİTİMİ BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "3205",
+    "ust_uuid": "894c485c-b643-5fbb-8319-64597bc5a0c6",
+    "ust_kod": "3200",
+    "node_id": [
+      "9036"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "465db4c6-e673-5762-b64a-2a36fcfad88c": {
+    "uuid": "465db4c6-e673-5762-b64a-2a36fcfad88c",
+    "ad": "İNGİLİZ DİLİ EĞİTİMİ ANABİLİM DALI",
+    "tur": "AKADEMİK",
+    "kod": "3206",
+    "ust_uuid": "719b8f40-d2f5-5942-940e-caf98a50f6e3",
+    "ust_kod": "3205",
+    "node_id": [
+      "2761",
+      "6190"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "66c35fc5-061c-5abd-85d0-b13d5e6ffd8f": {
+    "uuid": "66c35fc5-061c-5abd-85d0-b13d5e6ffd8f",
+    "ad": "BİLGİSAYAR VE ÖĞRETİM TEKNOLOJİLERİ EĞİTİMİ BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "3207",
+    "ust_uuid": "894c485c-b643-5fbb-8319-64597bc5a0c6",
+    "ust_kod": "3200",
+    "node_id": [
+      "9103"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "d6237c48-e785-5c93-bee3-ff7c0c8a04cb": {
+    "uuid": "d6237c48-e785-5c93-bee3-ff7c0c8a04cb",
+    "ad": "TEMEL EĞİTİM BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "3208",
+    "ust_uuid": "894c485c-b643-5fbb-8319-64597bc5a0c6",
+    "ust_kod": "3200",
+    "node_id": [],
+    "kaynak": "ornek_veri"
+  },
+  "3c368c99-cc63-5300-8ea8-4ce991cbf359": {
+    "uuid": "3c368c99-cc63-5300-8ea8-4ce991cbf359",
+    "ad": "BEDEN EĞİTİMİ BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "151",
+    "ust_uuid": "894c485c-b643-5fbb-8319-64597bc5a0c6",
+    "ust_kod": "3200",
+    "node_id": [
+      "2347"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "79969344-06d6-5cec-aed1-a580019205dd": {
+    "uuid": "79969344-06d6-5cec-aed1-a580019205dd",
+    "ad": "SPOR BİLİMLERİ FAKÜLTESİ",
+    "tur": "AKADEMİK",
+    "kod": "3300",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [],
+    "kaynak": "ornek_veri"
+  },
+  "93e239d6-44e6-5abc-b3b5-2622829a2504": {
+    "uuid": "93e239d6-44e6-5abc-b3b5-2622829a2504",
+    "ad": "BEDEN EĞİTİMİ BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "239",
+    "ust_uuid": "79969344-06d6-5cec-aed1-a580019205dd",
+    "ust_kod": "3300",
+    "node_id": [
+      "4169",
+      "7221"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "664f1081-1c2e-5f2d-8ed2-6dac70d11895": {
+    "uuid": "664f1081-1c2e-5f2d-8ed2-6dac70d11895",
+    "ad": "FEN-EDEBİYAT FAKÜLTESİ",
+    "tur": "AKADEMİK",
+    "kod": "4000",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "5217",
+      "5136",
+      "8055"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "b1b8df78-b5da-596c-8023-5234bd5a31c4": {
+    "uuid": "b1b8df78-b5da-596c-8023-5234bd5a31c4",
+    "ad": "MATEMATİK BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4001",
+    "ust_uuid": "664f1081-1c2e-5f2d-8ed2-6dac70d11895",
+    "ust_kod": "4000",
+    "node_id": [
+      "2783"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "a99dbcf0-5f0a-5879-b90d-451450c7e3d2": {
+    "uuid": "a99dbcf0-5f0a-5879-b90d-451450c7e3d2",
+    "ad": "FİZİK BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4002",
+    "ust_uuid": "664f1081-1c2e-5f2d-8ed2-6dac70d11895",
+    "ust_kod": "4000",
+    "node_id": [
+      "3388",
+      "2144"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "b9b59edc-6c41-5d76-a925-50c9e7f4c453": {
+    "uuid": "b9b59edc-6c41-5d76-a925-50c9e7f4c453",
+    "ad": "TARİH BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4003",
+    "ust_uuid": "664f1081-1c2e-5f2d-8ed2-6dac70d11895",
+    "ust_kod": "4000",
+    "node_id": [
+      "2340",
+      "9743",
+      "5932"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "3ade509a-fcb8-528e-be8b-d15fb11c26e9": {
+    "uuid": "3ade509a-fcb8-528e-be8b-d15fb11c26e9",
+    "ad": "TÜRK DİLİ VE EDEBİYATI BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4004",
+    "ust_uuid": "664f1081-1c2e-5f2d-8ed2-6dac70d11895",
+    "ust_kod": "4000",
+    "node_id": [],
+    "kaynak": "ornek_veri"
+  },
+  "a65f6a91-8e12-5816-9b98-f90e95f75fef": {
+    "uuid": "a65f6a91-8e12-5816-9b98-f90e95f75fef",
+    "ad": "FELSEFE BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4005",
+    "ust_uuid": "664f1081-1c2e-5f2d-8ed2-6dac70d11895",
+    "ust_kod": "4000",
+    "node_id": [
+      "3187"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "6080f09e-92f5-5643-8cb1-859a442e3b78": {
+    "uuid": "6080f09e-92f5-5643-8cb1-859a442e3b78",
+    "ad": "PSİKOLOJİ BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4006",
+    "ust_uuid": "664f1081-1c2e-5f2d-8ed2-6dac70d11895",
+    "ust_kod": "4000",
+    "node_id": [
+      "5695"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "c0e2a968-3800-5129-825a-499be85fa601": {
+    "uuid": "c0e2a968-3800-5129-825a-499be85fa601",
+    "ad": "İKTİSADİ VE İDARİ BİLİMLER FAKÜLTESİ",
+    "tur": "AKADEMİK",
+    "kod": "4100",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "3186",
+      "4716",
+      "8114"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "57cc02aa-a412-5846-b320-6a9ddc2631a8": {
+    "uuid": "57cc02aa-a412-5846-b320-6a9ddc2631a8",
+    "ad": "İŞLETME BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4101",
+    "ust_uuid": "c0e2a968-3800-5129-825a-499be85fa601",
+    "ust_kod": "4100",
+    "node_id": [
+      "4475",
+      "7721"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "65366b59-a644-502f-bf0a-e74c480a5f4b": {
+    "uuid": "65366b59-a644-502f-bf0a-e74c480a5f4b",
+    "ad": "EKONOMİ BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4102",
+    "ust_uuid": "c0e2a968-3800-5129-825a-499be85fa601",
+    "ust_kod": "4100",
+    "node_id": [
+      "3492"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "583e84aa-c491-5755-85ba-8440eb003627": {
+    "uuid": "583e84aa-c491-5755-85ba-8440eb003627",
+    "ad": "SİYASET BİLİMİ VE ULUSLARARASI İLİŞKİLER BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4103",
+    "ust_uuid": "c0e2a968-3800-5129-825a-499be85fa601",
+    "ust_kod": "4100",
+    "node_id": [
+      "7663"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "ee2fc281-b420-5ff0-bda8-a1206979eda0": {
+    "uuid": "ee2fc281-b420-5ff0-bda8-a1206979eda0",
+    "ad": "İLETİŞİM FAKÜLTESİ",
+    "tur": "AKADEMİK",
+    "kod": "4200",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "7950",
+      "6737"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "4f5b7317-9e94-59f2-90f9-be01c96b519e": {
+    "uuid": "4f5b7317-9e94-59f2-90f9-be01c96b519e",
+    "ad": "RADYO TELEVİZYON VE SİNEMA BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4201",
+    "ust_uuid": "ee2fc281-b420-5ff0-bda8-a1206979eda0",
+    "ust_kod": "4200",
+    "node_id": [],
+    "kaynak": "ornek_veri"
+  },
+  "75f01d96-bfbe-5721-8dd0-e1ba60efc94c": {
+    "uuid": "75f01d96-bfbe-5721-8dd0-e1ba60efc94c",
+    "ad": "YENİ MEDYA VE İLETİŞİM BÖLÜMÜ",
+    "tur": "AKADEMİK",
+    "kod": "4202",
+    "ust_uuid": "ee2fc281-b420-5ff0-bda8-a1206979eda0",
+    "ust_kod": "4200",
+    "node_id": [
+      "9803"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "e020bb07-6590-5e88-819b-f2b384fa1c34": {
+    "uuid": "e020bb07-6590-5e88-819b-f2b384fa1c34",
+    "ad": "SOSYAL BİLİMLER",
+    "tur": "AKADEMİK",
+    "kod": "5500",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "7386",
+      "6636",
+      "9877"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "2453bb9e-cdc5-5264-87b8-de604f38978c": {
+    "uuid": "2453bb9e-cdc5-5264-87b8-de604f38978c",
+    "ad": "SOSYAL BİLİMLER ENSTİTÜSÜ",
+    "tur": "AKADEMİK",
+    "kod": "236",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "9455",
+      "3538"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "3a1888ab-9868-5fac-adf7-46530e71013c": {
+    "uuid": "3a1888ab-9868-5fac-adf7-46530e71013c",
+    "ad": "SOSYAL BİLİMLER ENSTİTÜSÜ",
+    "tur": "AKADEMİK",
+    "kod": "127",
+    "ust_uuid": "e020bb07-6590-5e88-819b-f2b384fa1c34",
+    "ust_kod": "5500",
+    "node_id": [
+      "3227"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "def16869-a9a5-5759-a887-75feaaedf493": {
+    "uuid": "def16869-a9a5-5759-a887-75feaaedf493",
+    "ad": "SİYASET VE SOSYAL BİLİMLER",
+    "tur": "AKADEMİK",
+    "kod": "14034",
+    "ust_uuid": "e020bb07-6590-5e88-819b-f2b384fa1c34",
+    "ust_kod": "5500",
+    "node_id": [
+      "3145"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "8d212c5e-354f-5b13-b35d-1cb112cedfaf": {
+    "uuid": "8d212c5e-354f-5b13-b35d-1cb112cedfaf",
+    "ad": "FEN BİLİMLERİ ENSTİTÜSÜ",
+    "tur": "AKADEMİK",
+    "kod": "235",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "5366"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "cacc17a9-ebe4-5160-9a5f-c8738e418f09": {
+    "uuid": "cacc17a9-ebe4-5160-9a5f-c8738e418f09",
+    "ad": "ATATÜRK İLKELERİ VE İNKILAP TARİHİ ENSTİTÜSÜ",
+    "tur": "AKADEMİK",
+    "kod": "176",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "7862"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "a4f80b64-8c4e-593c-8df2-3d0aac454b65": {
+    "uuid": "a4f80b64-8c4e-593c-8df2-3d0aac454b65",
+    "ad": "BİYOMEDİKAL MÜHENDİSLİĞİ ENSTİTÜSÜ",
+    "tur": "AKADEMİK",
+    "kod": "177",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "8830",
+      "7586",
+      "9206"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "cfb2a73b-ba26-57c1-9382-c83bec94e6f2": {
+    "uuid": "cfb2a73b-ba26-57c1-9382-c83bec94e6f2",
+    "ad": "ÇEVRE BİLİMLERİ ENSTİTÜSÜ",
+    "tur": "AKADEMİK",
+    "kod": "178",
+    "ust_uuid": "2930f169-4cb6-52cd-920e-faff10b37aaf",
+    "ust_kod": "100",
+    "node_id": [
+      "7237",
+      "5447",
+      "8665"
+    ],
+    "kaynak": "ornek_veri"
+  },
+  "947c630e-7b01-5aa1-a286-086108a7e2ac": {
+    "uuid": "947c630e-7b01-5aa1-a286-086108a7e2ac",
+    "ad": "ÇEVRE BİLİMLERİ LİSANSÜSTÜ PROGRAMLARI",
+    "tur": "AKADEMİK",
+    "kod": "179",
+    "ust_uuid": "cfb2a73b-ba26-57c1-9382-c83bec94e6f2",
+    "ust_kod": "178",
+    "node_id": [
+      "7242",
+      "5889",
+      "2006"
+    ],
+    "kaynak": "ornek_veri"
+  }
+}
